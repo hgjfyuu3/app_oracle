@@ -7,9 +7,14 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="testBean"
+    <bean id="Kirill"
           class="org.example.TestBean">
-        <constructor-arg value="Neil"/>
+        <constructor-arg value="Я Кирилл"/>
+    </bean>
+
+    <bean id="Marina"
+          class="org.example.TestBean">
+        <constructor-arg value="Я Марина"/>
     </bean>
 
 </beans>

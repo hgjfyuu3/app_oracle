@@ -8,7 +8,11 @@ public class TestSpring {
                 "applicationContext.xml"
         );
 
-        TestBean testBean = context.getBean("testBean", TestBean.class);
+        TestBean testBean = context.getBean("Kirill", TestBean.class);
+
+        System.out.println(testBean.getName());
+
+        testBean = context.getBean("Marina", TestBean.class);
 
         System.out.println(testBean.getName());
 
